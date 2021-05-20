@@ -65,3 +65,12 @@ public class Authorization {
         checkData(login, password, confirmPassword);
     }
 }
+/**
+ * Логин - vma123
+ * Ваш пароль - vma141
+ * Пароль подтвержден
+ *
+ *---- Exceptions ----
+ * Exception in thread "main" Task_1.WrongPasswordException: Пароль не подтвержден: Несовпадение пароля.
+ * Exception in thread "main" Task_1.WrongPasswordException: Неправильный логин или пароль
+ */
